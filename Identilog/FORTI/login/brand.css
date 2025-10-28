@@ -1,0 +1,9 @@
+/*  Build date : 19/01/2018 - 09:28:11   */
+
+/* New_Structure*/
+@import url("bnpp-fortis.css");
+/* Base and Transactional css files */
+@import url("bnpp-fortis-pws.css");
+/* PWS css files */
+@import url("bnpp-fortis-patch.css");
+/* shorter release cycle css files */

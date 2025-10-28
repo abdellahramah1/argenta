@@ -1,0 +1,294 @@
+.top {
+    /* height: 40px; */
+    background: #B40035;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 9px 1px;
+}
+
+.main {
+    margin-top: 22px;
+}
+
+.form-group {
+    position: relative;
+    /* left: -25px; */
+    margin-bottom: 40px;
+}
+
+label {
+    /* display: none; */
+    color: #757575;
+}
+
+.form-control#user, .form-control#user:focus {
+    border: none;
+    padding-left: 75px;
+    height: 37px;
+}
+
+span.prefix {
+    position: absolute;
+    left: 31px;
+    bottom: 6px;
+    color: #585858;
+}
+
+span.fa.fa-credit-card {
+    position: absolute;
+    border: 16px;
+    bottom: 10px;
+    left: 8px;
+    color: #6b6b6b;
+}
+
+body,html {
+    height: 100%;
+}
+
+body {
+    background: #e6e6e6;
+}
+
+.box {
+    /* box-shadow: 0 0 6px #9c9c9c; */
+    /* padding: 23px; */
+    /* border-radius: 8px; */
+    /* background: #f3f1f1; */
+}
+
+.btn-danger,.btn-danger:focus,.btn-danger:active {
+    background: #d00742;
+    height: 48px;
+}
+
+h4.h4 {
+    font-size: 19px;
+    color: #b40035;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-group.has_err .form-control {
+    /* border-color: red; */
+    border: 1px solid #b40035;
+}
+.form-control.has_err {}
+.form-group.has_err label {
+    color: #b40035;
+}
+.form-group.has_err .err_span {}
+
+
+
+
+.links {
+    text-align: center;
+}
+
+a.link {
+    text-decoration: underline !important;
+    color: #888888 !important;
+}
+p.pstep {
+    color: #6f6c6c;
+}
+
+
+img.imf1 {
+    margin: 0 auto;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+img.button-ok {
+    float: right;
+}
+
+span.num {
+    display: block;
+    margin: 8px 1px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #b40035;
+}
+.form-group.has_err .form-control {}
+.form-control.has_err {}
+.form-group.has_err label {}
+.form-group.has_err .err_span {}
+
+
+
+
+.scum_container {
+    position: relative;
+    overflow: hidden;
+}
+
+.scum_container.loader_show .scum {
+    -webkit-animation-name: loader__show;
+            animation-name: loader__show;
+    -webkit-animation-duration:1s;
+            animation-duration:1s;
+    transition-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    
+}
+
+.scum_container.loader_hide .scum {
+    -webkit-animation-name: loader__hide;
+            animation-name: loader__hide;
+    -webkit-animation-duration:1s;
+            animation-duration:1s;
+    transition-timing-function: ease;
+/*     animation-fill-mode:forwards; */
+    
+}
+
+
+@-webkit-keyframes loader__show {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0;
+        -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+    }
+}
+
+
+@keyframes loader__show {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity:0;
+        -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+    }
+}
+
+
+@-webkit-keyframes loader__hide {
+    0%{
+        opacity:0;
+        -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+    }
+    100%{
+        opacity:1;
+       
+    }
+}
+
+
+@keyframes loader__hide {
+    0%{
+        opacity:0;
+        -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+    }
+    100%{
+        opacity:1;
+       
+    }
+}
+
+
+
+/*loader*/
+
+.loader__ {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000000bf;
+    text-align: center;
+    z-index: 1000;
+}
+
+.loader-box {
+    position: relative;
+    width: 90%;
+    max-width: 336px;
+    margin: 0 auto;
+    top: 100px;
+    background: white;
+    padding: 20px 20px;
+    color: #6367bf;
+}
+
+img.newloader {
+    width: 100%;
+    visibility: hidden;
+}
+
+img.loader-logo {
+    width: 62%;
+    position: relative;
+    top: 48%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-animation: blinker 1s linear infinite;
+    animation: blinker 1s linear infinite;
+}
+
+.ab-logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+h1.waiter_h1 {
+    margin: 0px;
+    margin-bottom: 9px;
+}
+
+.loader-images-box {
+    position: relative;
+    width: 26%;
+    margin: 0 auto;
+    max-width: 170px;
+}
+
+p.waiter_p {
+    margin: 0px;
+    margin-top: 16px;
+    color: #060606;
+}
+
+
+/*loader*/
+
+
+h2.waiter_h2 {
+    margin-bottom: 16px;
+    font-size: 21px;
+}

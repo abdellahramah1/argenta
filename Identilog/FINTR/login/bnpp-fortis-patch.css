@@ -1,0 +1,149 @@
+/*  Build date : 18/10/2019 - 15:28:11   */
+
+/*
+//  This file is used for shorter release cycle
+//  In every major release this file will be cleaned up
+//  So - its VERY IMPORTANT - All the styles added in this file should be added in the parent file - VERY IMPORTANT
+//  Every shorter release move this file will be updated or added with new changes
+//  This file should not be cleaned in shorter release deployment
+*/
+/* v7 */
+.product_banner {
+    position: relative;
+    z-index: 2;
+}
+
+.product_banner_wrapper {
+    position: absolute;
+    top: -197px;
+    right: 0;
+    background: #fff;
+    min-height: 130px;
+    width: 520px;
+    display: table;
+    font-family: 'light';
+    box-shadow: 2px -3px 7px 0 rgba(0, 0, 0, 0.12);
+}
+
+.prod_banner_left {
+    width: 125px;
+    background: #00965e;
+    padding: 20px 0 20px 20px;
+    display: table-cell;
+    font-family: 'regular';
+    font-size: 24px;
+    color: white;
+    text-align: right;
+    position: relative;
+    vertical-align: middle;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.prod_banner_left .iconleft {
+    display: table-cell;
+}
+
+.prod_banner_left img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.prod_banner_middle {
+    width: 55px;
+    height: 100%;
+    position: absolute;
+    left: 97px;
+    top: 0;
+    background: #00965e;
+    display: table-cell;
+    transform: skewX(-7deg);
+}
+
+
+.prod_banner_right {
+    padding: 20px 20px 20px 40px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+    font-family: 'light';
+    font-size: 20px;
+    line-height: 26px;
+    vertical-align: middle;
+}
+
+.prod_banner_right .section {
+    background: transparent;
+}
+
+.prod_banner_right .text b {
+    font-family: 'regular';
+}
+
+.prod_banner_right .text a {
+    color: #00965e;
+    padding-top: 12px;
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.prod_banner_right .section {
+    margin: 0;
+}
+
+.discount {
+    padding: 10px 0 15px 0;
+}
+
+.discount span {
+    display: block;
+}
+
+.discount .value {
+    font-family: 'Bold';
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.discount .text {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+
+/* XTRALARGE */
+@media screen and (min-width: 2500px) {}
+
+/* LARGE */
+@media screen and (min-width: 1919px) {
+    .product_banner_wrapper {
+        top: -236px;
+    }
+}
+
+/* Medium */
+@media screen and (max-width: 1023px) {
+    .prod_banner_right {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .product_banner_wrapper {
+        top: -167px;
+    }
+}
+
+/* Small */
+@media screen and (max-width: 767px) {
+    .product_banner {
+        padding: 15px;
+        margin-top: -52px;
+    }
+
+    .product_banner_wrapper {
+        position: relative;
+        width: 100%;
+        top: auto;
+    }
+}
